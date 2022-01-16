@@ -1,0 +1,13 @@
+﻿@using ShoeStore.Models;
+<h2>GetAllShoes</h2>
+
+
+    @foreach (SportShoe sportShoe in Model)
+            {
+        <h1>
+            @sportShoe.CompanyName ,@sportShoe.ModelName ,@sportShoe.Size ,@sportShoe.Price
+        </h1>
+
+
+   
+            }
